@@ -9,11 +9,12 @@ public static void main(String[] args){
     for(int m=1;m<=terms;m++){
     System.out.print("Enter Number: ");
     int num = scn.nextInt();
-    if(num%2==0){
-        System.out.println("It is Even Number");
+    int rem = num%2;
+    if(rem==0){
+        System.out.println("Even Number");
     }
     else{
-        System.out.println("It is odd Number");
+        System.out.println("Odd Number");
     }
    }
    scn.close();
