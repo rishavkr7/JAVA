@@ -27,5 +27,6 @@ public class CompareThreeNumber {
                 System.out.println(num3+ " is grater than "+num1+" and "+num2); 
             }
         }
+        scn.close();
     }
 }
