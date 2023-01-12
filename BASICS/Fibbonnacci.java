@@ -14,7 +14,7 @@ public class Fibbonnacci{
             first=second;
             second=third;
             i++;
-            
-        }
+            }
+            scn.close();
     }
 }
