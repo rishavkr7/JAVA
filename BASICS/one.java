@@ -12,7 +12,7 @@ public class one{
            reverse=reverse*10+rem;
            num=num/10;
         }
-
+        System.out.print(reverse);
     scn.close();
     }
 }
