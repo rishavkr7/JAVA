@@ -1,6 +1,6 @@
-package LOOP;
+package BASICS;
 import java.util.*;
-public class JAVA{
+public class one{
     public static void main (String[] args){
         Scanner scn = new Scanner(System.in);
         System.out.print("Enter a number: ");
@@ -10,5 +10,7 @@ public class JAVA{
         {
            
         }
+
+    scn.close();
     }
 }
