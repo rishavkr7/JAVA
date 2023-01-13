@@ -7,5 +7,8 @@ public class JAVA{
         int num=scn.nextInt();
 
         while(num!=0)
+        {
+           
+        }
     }
 }
