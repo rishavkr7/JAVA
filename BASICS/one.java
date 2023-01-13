@@ -9,7 +9,7 @@ public class one{
         while(num!=0)
         {
            remender=num%10;
-           reverse=reverse*10+rem;
+           reverse=reverse*10+remender;
            num=num/10;
         }
         System.out.print("Reverse of given number is: "+reverse);
